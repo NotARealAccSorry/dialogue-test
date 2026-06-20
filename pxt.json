@@ -5,7 +5,9 @@
         "device": "*",
         "arcade-rtc": "github:riknoll/arcade-rtc#0dd34274ff955c1b322857623ea2911719679c7d",
         "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.2.1",
-        "arcade-state-transitions": "github:riknoll/arcade-state-transitions#v0.1.2"
+        "arcade-state-transitions": "github:riknoll/arcade-state-transitions#v0.1.2",
+        "Async extension": "github:Renderthegreat/async-extension#4915e0d50f881d3783abd4d060538245d4c1d86a",
+        "BetterSettings": "github:sargedev/bettersettings#2023.5.1"
     },
     "files": [
         "main.blocks",

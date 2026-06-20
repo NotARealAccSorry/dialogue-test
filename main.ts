@@ -10,9 +10,7 @@ stateTransitions.onButtonEvent("DialogStart", stateTransitions.Player.One, state
     stateTransitions.changeState("DialogEndForce")
 })
 function CreateText (text: string) {
-    if (ChunkLength < text.length) {
-        CreateDialog(TextChunker(text))
-    }
+    CreateDialog(TextChunker(text))
 }
 function TextChunker (text: string) {
     TextChunks = []
@@ -70,4 +68,7 @@ let DialogSprite: fancyText.TextSprite = null
 let ChunkLength = 0
 // edit this to make each chunk bigger or smaller
 ChunkLength = 150
-CreateText("f vkdkd f knfkfdnkdf nf knfkf nfkk")
+let Promises = [Asynchronous.readyPromise("LoadingContent")]
+Asynchronous.wrapper(function () {
+	
+})
