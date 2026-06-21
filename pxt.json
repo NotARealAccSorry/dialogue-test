@@ -7,7 +7,8 @@
         "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.2.1",
         "arcade-state-transitions": "github:riknoll/arcade-state-transitions#v0.1.2",
         "Async extension": "github:Renderthegreat/async-extension#4915e0d50f881d3783abd4d060538245d4c1d86a",
-        "BetterSettings": "github:sargedev/bettersettings#2023.5.1"
+        "BetterSettings": "github:sargedev/bettersettings#2023.5.1",
+        "sprite-fx": "github:kohanmathers/makecodespritefx#v1.3.0"
     },
     "files": [
         "main.blocks",
